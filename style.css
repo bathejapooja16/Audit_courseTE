@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    background: linear-gradient(184deg, rgb(247, 231, 13), rgb(243, 161, 7));
+    height: 5vw;
+    display: flex;
+    border-bottom: 2px solid black;
+    align-items: center;
+
+}
+
+
+.left h1 {
+
+    margin: 20px 200px;
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border:2px solid black; */
+    padding-left: 250px;
+
+}
+
+#right li a {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 35px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#right li {
+    list-style: none;
+}
+
+.block {
+    background: linear-gradient(184deg, rgb(247, 231, 13), rgb(243, 161, 7));
+    height: 30vw;
+    border-bottom: 2px solid black;
+}
+
+#para1 {
+    width: 600px;
+    height: 300px;
+    font-size: 75px;
+    padding-left: 200px;
+    padding-top: 40px;
+    font-weight: 800px;
+
+}
+
+#para2 {
+    width: 700px;
+    height: 300px;
+    font-size: 30px;
+    padding-left: 200px;
+}
+
+.articles {
+    padding-left: 200px;
+    padding-top: 40px;
+    margin: auto;
+}
+
+.articles h2 {
+    
+    font-size: 30px;
+}
+
+.article1 {
+    display: flex;
+    padding-top: 60px;
+}
+
+.article1 img {
+    width: 300px;
+    height: 200px;
+    border-radius: 7px;
+    transition: 0.5s;
+}
+.article1 img:hover{
+    box-shadow: 0 0 20px 0 rgb(0 , 0 , 0 , 0.5);
+}
+
+.article1-content {
+    align-self: center;
+    padding: 0px 50px;
+}
+
+.article1-content h3 {
+    font-size: 30px;
+}
+
+.article1-content p {
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.btn1 {
+    padding: 12px;
+    margin-top: 9px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.btn1:hover {
+    color: red;
+}
+
+#para3 {
+    font-size: 15px;
+    color: rgb(10, 10, 10);
+    padding-top: 9px;
+}
+
+#para4 {
+    font-size: 15px;
+    color: rgb(10, 10, 10);
+    display: inline;
+}

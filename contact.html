@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2 {
+    font-size: 3rem;
+    font-family: 'Balthazar', serif;
+    margin: 36px 0px 10px 0px;
+    line-height: 60px;
+    text-align: center;
+}
+.images{
+ 
+ margin:6px 50px;
+ padding:20px 50px 20px 50px;
+}
+
+.gallery {
+    display: inline-block;
+
+}
+.gallery img{
+    height: 183px;
+    width: 258px;
+}
+.gallery  :hover{
+   transform:scale(1.2);
+    cursor:pointer;
+   border:3px solid white;
+  
+}
+#para,
+#para2 {
+    margin: 10px 34px;
+    /* border:2px solid white; */
+    padding: 15px 59px;
+    text-align: center;
+    /* font-family: 'Lobster', cursive; */
+}
+h3{
+    left:34px;
+    font-size: 28px;
+    position: relative;
+    font-family:'Times New Roman', Times, serif;
+}
+.contact-us{
+ 
+  padding:5px 80px;
+  margin:50px;
+
+}
+.item{
+  font-size: 22px;
+  display: inline-block;
+}
+.container{
+  padding:3px;
+  /* border:2px solid white; */
+    width:600px;
+}
+.container img{
+  height: 23px;
+  width: 23px;
+  display: inline-block;
+ 
+}
+a , span{
+color:white;
+font-size: 18px;
+}
+#contact-form{
+display:grid;
+grid-template-columns: 0.7fr 300px;
+}
+
+.get{
+background-color: white;
+height: 393px;
+width: 400px;
+margin:50px;
+border-radius: 5px;
+}
+input{
+border:2px solid black;
+padding:7px 96px;
+margin:13px;
+text-align: center;
+font-weight: bold;
+}
+.get h3{
+color:black;
+margin:13px 0px;
+font-family:'Times New Roman', Times, serif
+}
+.btnn{
+padding: 10px;
+margin:13px;
+background-color: blue;
+color: white;
+border-radius: 7px;
+}
+        body{
+    background-color: black;
+    color:white;
+}
+        footer {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+  .left{
+     color: black;
+     font-size: 15px;
+ }
+footer img {
+    height: 42px;
+    width: 38px;
+    margin-top: 10px;
+padding:5px;
+}
+
+.right {
+    padding-left: 110px;
+
+}
+footer img:hover {
+    transform:translateY(-25px);
+}
+
+    </style>
+</head>
+<body>
+    <h2>Contact</h2>
+    <section id="contact-form">
+        <div class="contact-us">
+            <h3>Contact Us</h3>
+            <div class="container">
+                <p class="item">Name:</p>
+                <span>Pooja Batheja</span>
+            </div>
+            <div class="container">
+                <img src="email.jpg" alt="">
+                <p class="item">Email:</p>
+                <a href="bathejapooja2001@gmail.com">bathejapooja2001@gmail.com</a>
+            </div>
+            <div class="container">
+                <img src="phone.jpg" alt="">
+                <p class="item">Phone No:</p>
+                <span>9812873465</span>
+            </div>
+            <div class="container">
+                <img src="address.jpeg" alt="">
+                <p class="item">Address:</p>
+                <span>Anand Nagar jamner road Bhusawal</span>
+            </div>
+            <div class="container">
+                <img src="linkdin.png" alt="">
+                <p class="item">LinkedIn Id:</p>
+                <a
+                    href="https://www.linkedin.com/in/pooja-batheja-8a4549202">https://www.linkedin.com/in/pooja-batheja-8a4549202</a>
+            </div>
+        </div>
+        <div class="get">
+            <h3>Get in touch</h3>
+            <form action="">
+                <div class="ineer">
+                    <input type="text" name="name" id="name" placeholder="Name">
+                </div>
+                <div class="ineer">
+                    <input type="text" name="email" id="email" placeholder="Email">
+                </div>
+                <div class="ineer">
+                    <input type="text" name="phone" id="phone" placeholder="Phone no">
+                </div>
+                <div class="ineer">
+                    <input type="text" name="message" id="message" placeholder="Message">
+                </div>
+
+                <button class="btnn">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+    <div class="left">
+        <h3>Designed By : Aaditya Sabnani , Rudrayani Sawarkar , Pooja Batheja , Divya Khese , Devanksh Verma</h3>
+    </div>
+    <div class="right">
+        <img src="wsp.jpg" alt="">
+        <img src="fb.png" alt="">
+        <img src="ig.jpg" alt="">
+    </div>
+</footer>
+</body>
+</html>

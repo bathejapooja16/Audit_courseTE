@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Write</title>
+    <style>
+        .container{
+            width:800px;
+           margin: auto;
+            }
+       h1{
+           font-size: 50px;
+           text-align: center;
+       }
+      
+       .form-group input{
+    display:block;
+    margin:auto;
+    padding:6px 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    border-radius: 9px;
+}
+.form-group input::placeholder{
+    text-align: center;
+}
+
+.form-group textarea{
+    display:block;
+    margin:auto;
+    padding:6px 10px;
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    border-radius: 9px;
+    border:2px solid black;
+}
+
+.button{
+    
+    width: 17%;
+    margin:15px 332px ;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 700;
+    padding:12px 9px;
+    height: 48px;
+    text-transform: uppercase;
+    color:white;
+    background-color: rgb(0, 2, 138);
+    border:none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Start your Blogging journey!!!!</h1>
+        <form action="" class="form">
+            <div class="form-group">
+                <input type="text" id="form-text" placeholder="Topic Name">
+            </div>
+            <div class="form-group">
+              <textarea name="mytext" id="form-text-1" cols="80" rows="10" placeholder="Write here"></textarea>
+            </div>
+            <button class="button" value="submit"> Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>
